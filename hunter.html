@@ -16,50 +16,143 @@
 <body>
     <h1>Find the mouse by Bhavya Reddy Sanku</h1>
     <p class="text-info text-bg-dark">"Click on the bushes to search for the mouse, beware the cat"</p>
-    <p id=“bushes” class="text-primary text-bg-warning">“Number of bushes checked is zero.”</p>
-    <p id=“penalty” class="text-bg-success text-bg-primary">“Penalty is zero.”</p>
-    <p class="text-warning text-bg-secondary"> “Click for help!”</p>
-    <div id="help" class="text-danger text-bg-light">"Help report”.</div>
+    <p id="bushes" class="text-primary text-bg-warning">“Number of bushes checked is zero.”</p>
+    <p id="penalty" class="text-bg-success text-bg-primary">“Penalty is zero.”</p>
+    <p class="text-warning text-bg-secondary" onclick="help()"> “Click for help!”</p>
+    <div id="help" class="text-danger text-bg-light" >"Help report”.</div>
+    
 
     <div class="container">
         <div class="d-flex">
-              <div class="search-location"><img src="Smallbush.webp" alt="Bushes" style="height: 100px; width: 100px;"></div>
-              <div class="search-location"><img src="Smallbush.webp" alt="Bushes" style="height: 100px; width: 100px;"></div>
-              <div class="search-location"><img src="Smallbush.webp" alt="Bushes" style="height: 100px; width: 100px;"></div>
-              <div class="search-location"><img src="Smallbush.webp" alt="Bushes" style="height: 100px; width: 100px;"></div>
-              <div class="search-location"><img src="Smallbush.webp" alt="Bushes" style="height: 100px; width: 100px;"></div>
-              <div class="search-location"><img src="Smallbush.webp" alt="Bushes" style="height: 100px; width: 100px;"></div>
+              <div class="search-location"  onclick="check(0)"><img src="Smallbush.webp" id="bush0" style="height: 100px; width: 100px;"></div>
+              <div class="search-location" onclick="check(1)"><img src="Smallbush.webp" id="bush1"  style="height: 100px; width: 100px;"></div>
+              <div class="search-location"  onclick="check(2)"><img src="Smallbush.webp" id="bush2" style="height: 100px; width: 100px;"></div>
+              <div class="search-location"  onclick="check(3)"><img src="Smallbush.webp" id="bush3" style="height: 100px; width: 100px;"></div>
+              <div class="search-location"  onclick="check(4)"><img src="Smallbush.webp"  id="bush4" style="height: 100px; width: 100px;"></div>
+              <div class="search-location"  onclick="check(5)"><img src="Smallbush.webp" id="bush5" style="height: 100px; width: 100px;"></div>
       </div>
     </div>
     <div class="container">
         <div class="d-flex">
-              <div class="search-location"><img src="mouse.jpg" alt="Mouse" style="height: 100px; width: 100px;"></div>
-              <div class="search-location"><img src="mouse.jpg" alt="Mouse" style="height: 100px; width: 100px;"></div>
-              <div class="search-location"><img src="mouse.jpg" alt="Mouse" style="height: 100px; width: 100px;"></div>
-              <div class="search-location"><img src="mouse.jpg" alt="Mouse" style="height: 100px; width: 100px;"></div>
-              <div class="search-location"><img src="mouse.jpg" alt="Mouse" style="height: 100px; width: 100px;"></div>
-              <div class="search-location"><img src="mouse.jpg" alt="Mouse" style="height: 100px; width: 100px;"></div>
+            <div class="search-location"  onclick="check(6)"><img src="Smallbush.webp" id="bush6" style="height: 100px; width: 100px;"></div>
+            <div class="search-location"  onclick="check(7)"><img src="Smallbush.webp"  id="bush7" style="height: 100px; width: 100px;"></div>
+            <div class="search-location"  onclick="check(8)"><img src="Smallbush.webp" id="bush8" style="height: 100px; width: 100px;"></div>
+            <div class="search-location"  onclick="check(9)"><img src="Smallbush.webp" id="bush9" style="height: 100px; width: 100px;"></div>
+            <div class="search-location"  onclick="check(10)"><img src="Smallbush.webp" id="bush10" style="height: 100px; width: 100px;"></div>
+            <div class="search-location"  onclick="check(11)"><img src="Smallbush.webp"  id="bush11" style="height: 100px; width: 100px;"></div>
             </div>
     </div>
     <div class="container">
         <div class="d-flex">
-        <div class="search-location"><img src="bigcat.webp" alt="bigcat" style="height: 100px; width: 100px;"></div>
-        <div class="search-location"><img src="bigcat.webp" alt="bigcat" style="height: 100px; width: 100px;"></div>
-        <div class="search-location"><img src="bigcat.webp" alt="bigcat" style="height: 100px; width: 100px;"></div>
-        <div class="search-location"><img src="bigcat.webp" alt="bigcat" style="height: 100px; width: 100px;"></div>
-        <div class="search-location"><img src="bigcat.webp" alt="bigcat" style="height: 100px; width: 100px;"></div>
-        <div class="search-location"><img src="bigcat.webp" alt="bigcat" style="height: 100px; width: 100px;"></div>
+            <div class="search-location" onclick="check(12)"><img  src="Smallbush.webp" id="bush12"  style="height: 100px; width: 100px;"></div>
+            <div class="search-location"  onclick="check(13)"><img id="bush13"  src="Smallbush.webp"  style="height: 100px; width: 100px;"></div>
+            <div class="search-location"  onclick="check(14)"><img src="Smallbush.webp" id="bush14" style="height: 100px; width: 100px;"></div>
+            <div class="search-location"  onclick="check(15)"><img src="Smallbush.webp"  id="bush15" style="height: 100px; width: 100px;"></div>
+            <div class="search-location"  onclick="check(16)"><img src="Smallbush.webp" id="bush16" style="height: 100px; width: 100px;"></div>
+            <div class="search-location"  onclick="check(17)"><img src="Smallbush.webp"  id="bush17" style="height: 100px; width: 100px;"></div>
         </div>
     </div>
     <div class="container">
         <div class="d-flex">
-        <div class="search-location"><img src="grass.webp" alt="grass" style="height: 100px; width: 100px;"></div>
-        <div class="search-location"><img src="grass.webp" alt="grass" style="height: 100px; width: 100px;"></div>
-        <div class="search-location"><img src="grass.webp" alt="grass" style="height: 100px; width: 100px;"></div>
-        <div class="search-location"><img src="grass.webp" alt="grass" style="height: 100px; width: 100px;"></div>
-        <div class="search-location"><img src="grass.webp" alt="grass" style="height: 100px; width: 100px;"></div>
-        <div class="search-location"><img src="grass.webp" alt="grass" style="height: 100px; width: 100px;"></div>
+            <div class="search-location"  onclick="check(18)"><img src="Smallbush.webp" id="bush18" style="height: 100px; width: 100px;"></div>
+            <div class="search-location"  onclick="check(19)"><img src="Smallbush.webp" id="bush19" style="height: 100px; width: 100px;"></div>
+            <div class="search-location"  onclick="check(20)"><img src="Smallbush.webp"  id="bush20" style="height: 100px; width: 100px;"></div>
+            <div class="search-location"  onclick="check(21)"><img src="Smallbush.webp" id="bush21"  style="height: 100px; width: 100px;"></div>
+            <div class="search-location"  onclick="check(22)"><img src="Smallbush.webp" id="bush22" style="height: 100px; width: 100px;"></div>
+            <div class="search-location" onclick="check(23)"><img src="Smallbush.webp" id ="bush23"  style="height: 100px; width: 100px;"></div>
         </div>
     </div>
+    <script>
+        let id="bush";
+        let checkCount=0;
+        let penalty=0;
+        let lastCheck=0;
+        let mouseLocation=Math.floor(Math.random() * 24);
+        let catLocation=23
+        let gameOver=false;
+        let ids=[];
+        for(let i=0;i<=23;i++){
+            ids[i]=id+i;
+            
+           
+        }  
+        // console.log(ids)
+        function check(position){
+            console.log(position);
+          if(gameOver==true){
 
+          }
+          else{
+              if(position==13){
+                  id=ids[position]
+                //   console.log("ID"+id)
+                  document.getElementById(ids[position]).src="mouse.jpg";
+                  gameOver=true;
+                  penalty=penalty-3;
+                  console.log("image is mouse "+position);
+                  console.log("penalty is "+penalty);
+                  console.log("GameOver");
+                  
+        document.getElementById("bushes").innerHTML= "Number of bushes checked is " + checkCount
+        document.getElementById("penalty").innerHTML="Penalty is "+penalty
+          
+              }
+              else if(position==21){
+                  id=ids[position]
+                  document.getElementById(id).src="bigcat.webp";
+                  gameOver=true;
+                  penalty=penalty+4;
+                  console.log("image is cat "+position);
+                  console.log("penalty is "+penalty);
+                  console.log("GameOver");
+                  
+        document.getElementById("bushes").innerHTML= "Number of bushes checked is " + checkCount
+        document.getElementById("penalty").innerHTML="Penalty is "+penalty
+          
+              }
+              else {
+                  id=ids[position]
+                  document.getElementById(id).src="grass.webp";
+                  checkCount+=1;
+                  penalty+=1;
+                  console.log("checkcount is "+checkCount);
+                  console.log("penalty is " +penalty);
+                  
+        document.getElementById("bushes").innerHTML= "Number of bushes checked is " + checkCount
+        document.getElementById("penalty").innerHTML="Penalty is "+penalty
+          
+              }
+              lastCheck=position;
+              console.log("lastCheck position is "+lastCheck);
+            
+          }
+        //    console.log(document.getElementById("bushes").innerText)
+          
+      }
+      function help() {
+        let rows = parseInt(lastCheck / 4) - 1
+        let colmns = lastCheck % 6 
+        let catrows = parseInt(catLocation / 4) - 1
+        let catCols = catLocation % 6
+        let mouserows = parseInt(mouseLocation / 4) - 1
+        let mouseClms = mouseLocation % 6  
+
+        if ((Math.abs(catrows - rows) <= 1) && (Math.abs(catCols - colmns) <= 1)) { 
+            document.getElementById("help").innerHTML = "Help report: meow"
+        }
+        else if ((Math.abs(mouserows - rows) <= 1) && (Math.abs(mouseClms - colmns) <= 1)) {
+            document.getElementById("help").innerHTML = "Help report: squeak"
+        }
+        else {
+            document.getElementById("help").innerHTML = "Help report: sorry, no help available"
+        }
+
+        penalty += 2
+        document.getElementById("penalty").innerHTML = "Penalty is " + penalty
+    }
+
+
+
+</script>
 </body>
+</html>
